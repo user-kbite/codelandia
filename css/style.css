@@ -59,12 +59,10 @@ header input::-webkit-input-placeholder {
 }
 
 header input::-moz-placeholder {
-    /* Firefox 18- */
     color: var(--white);
 }
 
 header input::-moz-placeholder {
-    /* Firefox 19+ */
     color: var(--white);
 }
 
