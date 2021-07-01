@@ -32,7 +32,7 @@
                 </div>
                 <div class="news-bottom">
                     <span class="title">Agora é oficial: O Windows 11 está vindo</span>
-                    <p>
+                    <p class="description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.
                     </p>
                 </div>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="news-bottom">
                     <span class="title">Tim Bernes-Lee vai leiloar código-fonte da web</span>
-                    <p>
+                    <p class="description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.
                     </p>
                 </div>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="news-bottom">
                     <span class="title">Tem Firefox no pedaço e você vai querer migrar</span>
-                    <p>
+                    <p class="description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.
                     </p>
                 </div>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="news-bottom">
                     <span class="title">John McAfee, criador do antivírus McAfee morre</span>
-                    <p>
+                    <p class="description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.
                     </p>
                 </div>
@@ -86,6 +86,22 @@
         <!-- End Section Article -->
 
     </main>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.news-section', { delay: 200 });
+        ScrollReveal().reveal('.news-content', { delay: 400 });
+        ScrollReveal().reveal('.news-bottom', { delay: 500 });
+        ScrollReveal().reveal('.description', { delay: 600 });
+    </script>
 
     <script src="./assets/js/search.js"></script>
 </body>
