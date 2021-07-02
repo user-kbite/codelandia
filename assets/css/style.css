@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,6 +10,22 @@
 
 body {
     background: #F3F5F7;
+}
+
+body.dark header {
+    background: #202020;
+}
+
+body.dark main {
+    background: #181818;
+}
+
+body.dark main li {
+    background: #202020;
+}
+
+body.dark main .title {
+    color: #5649E7;
 }
 
 header {
@@ -22,12 +37,14 @@ header {
 header .main-header {
     max-width: 960px;
     padding: 0 10px;
-    margin: 0 auto;
+    margin: 0 3rem 0 3rem;
+    /*margin: 0 auto;*/
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: var(--white);
     font-family: 'Lexend Deca', sans-serif;
     font-weight: normal;
@@ -101,6 +118,10 @@ main li .news-content {
     color: var(--text);
     font-size: 1em;
     line-height: 1.250em;
+}
+
+main li .news-content i {
+    color: #5649E7;
 }
 
 main li .title {
