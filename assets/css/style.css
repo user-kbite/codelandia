@@ -12,6 +12,10 @@ body {
     background: #F3F5F7;
 }
 
+body.dark {
+    background: #181818;
+}
+
 body.dark header {
     background: #202020;
 }
