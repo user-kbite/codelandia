@@ -11,7 +11,3 @@
         <li>CSS</li>
         <li>Javascript</li>
     </ul>
-
----
-
-<h1>Made in LG K11+</h1>
