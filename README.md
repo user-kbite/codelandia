@@ -1,6 +1,7 @@
 <div align="center">
     <h1>Blog Codelândia</h1>
     <p>Projeto do desafio Codelândia do <a href="https://instagram/iuricode" />Iuricode</a></p>
+    <a href="https://user-kbite.github.io/codelandia">Link - site</a>
 </div>
 
 ---
